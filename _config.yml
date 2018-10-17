@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                    https://prettypositron.github.io/Neural-Circuits-Lab/
+url:                    https://prettypositron.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -323,8 +323,8 @@ compress_html:
   comments:            ["<!-- ", " -->"]
   clippings:           all
   endings:             all
-  ignore:
-    envs:              [development]
+#  ignore:
+#    envs:              [development]
 
 sass:
   style:               compressed
