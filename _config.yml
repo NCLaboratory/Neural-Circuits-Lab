@@ -12,7 +12,7 @@ url:                    https://github.com/prettypositron/Neural-Circuits-Lab
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl:                '/Neural-Circuits-Lab'
+baseurl:                ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -367,3 +367,7 @@ defaults:
     values:
       menu: true
       order: 7
+  - scope:
+      path: resume.md
+      menu: true
+      order: 8
